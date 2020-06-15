@@ -2,7 +2,7 @@
 A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system.
 A typical microcontroller includes a processor, memory and input/output (I/O) peripherals on a single chip.
 
-##What is MSP430 microcontroller?
+## What is MSP430 microcontroller?
 There are six general generations of MSP430 processors. In order of development, they are the '3xx generation, the
 '1xx generation, the '4xx generation, the '2xx generation, the '5xx generation, and the '6xx generation. The digit 
 after the generation identifies the model (generally higher model numbers are larger and more capable), the third digit 
