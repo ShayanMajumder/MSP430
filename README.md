@@ -21,3 +21,10 @@ self-discharge would reduce this number.)
 The significance of the 'RAM retention' vs the 'real-time clock mode' is that in real time clock mode the CPU can go to sleep with a 
 clock running which will wake it up at a specific future time. In RAM retention mode, some external signal is required to wake it,
 e.g. I/O pin signal or SPI slave receive interrupt.
+
+..* **LED_ON.C**
+This is the "Hello World" of getting started with msp 430 microcontroller and just simply switches on the led.
+
+..* **LED_BLINK_USING_INTERRUPTS.C**
+This is a little more complex code which uses interrupts in the program and helps blink the LED using input pins.More about interrupts can be read [here](https://www.argenox.com/library/msp430/msp430-interrupts-and-low-power-chapter-7/)
+
