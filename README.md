@@ -24,9 +24,15 @@ e.g. I/O pin signal or SPI slave receive interrupt.
 
 ## Code description-
 
+### LEARNING PHASE
+
 1. **LED_ON.C**
 This is the "Hello World" of getting started with msp 430 microcontroller and just simply switches on the led.
 
 2. **LED_BLINK_USING_INTERRUPTS.C**
 This is a little more complex code which uses interrupts in the program and helps blink the LED using input pins.More about interrupts can be read [here](https://www.argenox.com/library/msp430/msp430-interrupts-and-low-power-chapter-7/)
+
+3. **LED_BLINK_USING_INTERRUPTS_Caused_by_timers.C**
+This code uses timers to generate interrupts to blink a led in timers intervals of 0.5 seconds the clock used here is SMCLK( the subsystem master clk with 1.1 Mhz) more can be read [here](https://training.ti.com/msp430-workshop-series-6-12-timers)
+
 
